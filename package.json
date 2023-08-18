@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website using node express mongoDb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon src/app.js"
+  },
+  "keywords": [
+    "Web",
+    "Dev"
+  ],
+  "author": "Dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
